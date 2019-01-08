@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "First Express App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaPuello/FirstExpressApp.git"
+  },
+  "author": "Joshua Puello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshuaPuello/FirstExpressApp/issues"
+  },
+  "homepage": "https://github.com/JoshuaPuello/FirstExpressApp#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
