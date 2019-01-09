@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
     "nodemon": "^1.18.9"
   },
   "dependencies": {
+    "consolidate": "^0.15.1",
     "express": "^4.16.4",
+    "handlebars": "^4.0.12",
     "pug": "^2.0.3"
   }
 }
